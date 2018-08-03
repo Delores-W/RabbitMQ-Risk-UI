@@ -1,0 +1,168 @@
+/*overwrite iata styles*/
+
+/* ----------------------------------------------------------------------------------- */ 
+/* Left nav */
+/* ----------------------------------------------------------------------------------- */ 
+
+#leftnav
+{
+	width					:100%;
+	height					:100%;
+	margin					: 0px 0px 5px 5px;
+	padding					: 0px;
+} 
+
+#leftnav H1
+{
+	margin					: 0px 10px 10px 20px;
+} 
+
+#leftnav ul
+{
+	border-top				: 0px;
+}
+
+#leftnav ul li 
+{	
+	list-style-type			: none;
+	font					: normal 8pt Arial, Helvetica, sans-serif;
+	color					: #A1BC03;
+	margin					: 0px;
+	padding					: 0px 0px 0px 10px;
+	border-bottom			: 0px;
+	background		: url();
+}
+/* ----------------------------------------------------------------------------------- */ 
+/* Top nav */
+/* ----------------------------------------------------------------------------------- */ 
+
+#topnav 
+{
+	width					: 100%;
+	margin					: 0px 0px 0px 0px;
+	border					: 0px;
+	padding					: 0px;
+} 
+#topnav ul
+{	
+	text-align: center;
+}
+
+#topnav ul li 
+{	
+	background				: url();
+}
+
+* html body #topnav ul li 
+{	
+	padding					: 2px 5px 2px 5px;	
+}
+
+/* ----------------------------------------------------------------------------------- */ 
+/* Right nav */
+/* ----------------------------------------------------------------------------------- */ 
+#rightnav
+{
+	width					:100%;
+	height					:100%;
+} 
+
+#rightnav H1
+{
+	padding: 0px 0px 0px 0px;
+}
+
+#rightbuttons ul
+{
+	border-top				: 0px;
+	margin					: 0px ;
+	padding					: 0px;
+}
+
+#rightbuttons ul li 
+{	
+	list-style-type			: none;
+	font					: normal 8pt Arial, Helvetica, sans-serif;
+	color					: #A1BC03;
+	margin					: 0px;
+	padding					: 2px;
+	background		: url();
+}
+
+#rightbuttons ul li a:link, #rightnav ul li a:visited
+{	
+	text-decoration			: none;
+	color					: #1B4674;
+}
+
+#rightbuttons ul li a:hover
+{	
+	font					: inherit;
+	color					: #AEC815;
+	text-decoration			: none;
+}
+
+#rightbuttons /* Button on right hand side - send to a friend, bookmark, etc...  */
+{			
+	width					: 100%;
+	height					: 100%;
+	font					: normal 7pt/11pt arial, helvetica, sans-serif;
+	padding					: 0px 5px 10px 0px;
+	margin					: 5px 0px 10px 0px;
+}
+
+
+#rightbuttons .mailing 
+{
+	background				: url(../images-css/b_mailing.gif) no-repeat;
+	padding					: 1px 0px 5px 22px;
+}
+
+#rightbuttons .email 
+{
+	background				: url(../images-css/b_email.gif) no-repeat;
+	padding					: 1px 0px 5px 22px;
+} 
+
+#rightbuttons .print 
+{
+	background				: url(../images-css/b_print.gif) no-repeat;
+	padding					: 1px 0px 5px 22px;
+}
+
+#rightbuttons .send 
+{
+	background				: url(../images-css/b_send.gif) no-repeat;
+	padding					: 1px 0px 5px 22px;
+}
+
+#rightbuttons .faq 
+{
+	background				: url(../images-css/b_faq.gif) no-repeat;
+	padding					: 1px 0px 5px 22px;
+}
+
+@media print {
+	#rightnav { display: none }
+}
+
+/* ----------------------------------------------------------------------------------- */ 
+/* Main contente area */
+/* ----------------------------------------------------------------------------------- */ 
+
+#mainContent
+{
+	width					: 100%;
+	height					: 100%;
+}
+
+#footer h6
+{
+	text-align:center;
+}
+
+text-align: center;
+
+#header
+{
+}

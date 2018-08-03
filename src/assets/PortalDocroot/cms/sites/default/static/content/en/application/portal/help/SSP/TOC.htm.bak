@@ -1,0 +1,60 @@
+
+
+
+
+<!doctype html public "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<body>
+
+
+
+<h3>Help - myIATA Self Service Portal</h3>
+<table cellspacing="0" cellpadding="0" width="95%" border="0" class="basictable"><thead><tr class="Whsep Wvsep"><td>Table of Contents</td>
+</tr>
+</thead><tbody><tr><td><ul><li><h3><a href="http://localhost:80/PortalDocroot/cms/sites/default/static/content/en/application/portal/help/SSP/Login_SSP.htm">Login</a></h3>
+</li>
+<li><h3><a href="http://localhost:80/PortalDocroot/cms/sites/default/static/content/en/application/portal/help/SSP/Navigation_Tools.htm">Navigation Tools</a></h3>
+</li>
+<li><h3><a href="http://localhost:80/PortalDocroot/cms/sites/default/static/content/en/application/portal/help/SSP/SSP_Home.htm">SSP Homepage</a></h3>
+</li>
+<li><h3><a href="http://localhost:80/PortalDocroot/cms/sites/default/static/content/en/application/portal/help/SSP/Forgot_Password.htm">Retrive Password</a></h3>
+</li>
+<li><h3><a href="http://localhost:80/PortalDocroot/cms/sites/default/static/content/en/application/portal/help/SSP/Request_an_Account.htm">Request an Account</a></h3>
+</li>
+<li><h3><a href="http://localhost:80/PortalDocroot/cms/sites/default/static/content/en/application/portal/help/SSP/My_Account.htm">My Account</a></h3>
+<ul><li><strong><a href="http://localhost:80/PortalDocroot/cms/sites/default/static/content/en/application/portal/help/SSP/My_Account_My_Preference.htm">My Preference</a></strong></li>
+<li><strong><a href="http://localhost:80/PortalDocroot/cms/sites/default/static/content/en/application/portal/help/SSP/My_Account_Contact_Information.htm">Contact Information</a></strong></li>
+<li><strong><a href="http://localhost:80/PortalDocroot/cms/sites/default/static/content/en/application/portal/help/SSP/My_Account_change_password.htm">Change Password</a></strong></li>
+<li><strong><a href="http://localhost:80/PortalDocroot/cms/sites/default/static/content/en/application/portal/help/SSP/My_Account_change_security_question.htm">Change Security Question</a></strong></li>
+<li><strong><a href="http://localhost:80/PortalDocroot/cms/sites/default/static/content/en/application/portal/help/SSP/My_Account_Company_Visiblity.htm">Company Visiblity</a></strong></li>
+<li><strong><a href="http://localhost:80/PortalDocroot/cms/sites/default/static/content/en/application/portal/help/SSP/My_Account_Portal_Accessibility.htm">Portal Accessibility</a></strong></li>
+</ul>
+</li>
+<li><h3><a href="http://localhost:80/PortalDocroot/cms/sites/default/static/content/en/application/portal/help/SSP/Company_Account.htm">Company Account</a></h3>
+<ul><li><strong><a href="http://localhost:80/PortalDocroot/cms/sites/default/static/content/en/application/portal/help/SSP/Company_Account_Company_Information.htm">Company Information</a></strong></li>
+<li><strong><a href="http://localhost:80/PortalDocroot/cms/sites/default/static/content/en/application/portal/help/SSP/Company_Account_Trusted_Companies.htm">Trusted Companies</a></strong></li>
+<li><strong><a href="http://localhost:80/PortalDocroot/cms/sites/default/static/content/en/application/portal/help/SSP/Company_Account_Administrator.htm">Administrator</a></strong></li>
+</ul>
+</li>
+<li><h3><a href="http://localhost:80/PortalDocroot/cms/sites/default/static/content/en/application/portal/help/SSP/GroupAccounts.htm">Group Accounts</a></h3>
+</li>
+<li><h3><a href="http://localhost:80/PortalDocroot/cms/sites/default/static/content/en/application/portal/help/SSP/Take_Trust.htm">Take Trust</a></h3>
+</li>
+<li><h3><a href="http://localhost:80/PortalDocroot/cms/sites/default/static/content/en/application/portal/help/SSP/User_Accounts.htm">User Accounts</a></h3>
+</li>
+</ul>
+</td>
+</tr>
+</tbody></table>
+<table cellspacing="0" cellpadding="0" width="95%" border="0"><tbody><tr><td><input class="btn2" onclick="javascript:window.close();" type="button" name="Button" value="Close"></input></td>
+<td><div align="right"><input class="btn3" onclick="javascript:window.print();" type="button" name="Button22" value="Print"></input></div></td>
+</tr>
+</tbody></table>
+<p class="footer"> </p>
+
+
+
+
+</body>
+</html>
+

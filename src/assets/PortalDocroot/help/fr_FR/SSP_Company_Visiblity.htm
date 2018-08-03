@@ -1,0 +1,137 @@
+<!-- InstanceBegin template="/Templates/help.dwt" codeOutsideHTMLIsLocked="false" --><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<!-- InstanceBeginEditable name="title" -->
+<title>IATA: T2005 Customer Portal: IATA Self-Service Portal Help </title>
+<link rel="stylesheet" href="../../../styles/master.css" />
+ <link rel="stylesheet" href="/PlatformDocroot/common/css/master.css"></link>
+<script language="JavaScript">
+
+function resize(){ 
+var ScreenWidth= screen.width;
+var ScreenHeight = screen.height;
+var Height = Math.round((ScreenHeight * 3) / 4);
+var Width = Math.round((ScreenWidth * 3) / 4);
+window.resizeTo(Width,Height) 
+
+} 
+resize();
+
+</script>
+<!-- InstanceEndEditable -->
+
+
+<script type="text/javascript">
+function form(){
+bar = document.getElementById('search');
+bar1= document.getElementById('send')
+if(bar1.style.display="none")
+{
+	if (bar.style.display == "")
+ 		bar.style.display = "none";
+   
+	else
+ 		bar.style.display = "";
+}
+else
+bar1.style.display="";
+ 
+ }
+ 
+ function send(){
+bar = document.getElementById('send');
+check= document.getElementById('search');
+if(check.style.display="none")
+{
+	if (bar.style.display == "")
+	 bar.style.display = "none";
+   
+	else
+ 		bar.style.display = "";
+		}
+	else
+	check.style.display="";
+ 
+ }
+ </script>
+<style type="text/css">
+.search {
+	border-left			: 1px #103F74 solid;
+	border-bottom			: 1px #103F74 solid;
+	border-right			: 1px #103F74 solid;
+	background-color:			#EAEFFB;
+
+	}
+	
+</style>
+
+</head>
+<body >
+
+<div id="appheader" style="z-index:-1"></div>
+
+</div>
+
+<div id="search" style=" display: none; position:absolute; padding:0px 0px 0px 0px; right:55px; 
+
+top:70px;"  align="right" ><form  method="get" name="searchform" action="http://www.google.com/search" target="_blank">
+<TABLE class="search"><tr><td>
+<input type="hidden" name="sitesearch" value="www.iata.org" />
+<input alt="search" type="text" style="width:150px" name="as_q" size="20" />&nbsp;<input class="btn3"  type="submit" value="Go"/></td></tr></table>
+</form></div>
+<div id="send" style="display: none;   position:absolute; padding:0px 0px 0px 0px; right:160px; 
+
+top:70px;"  align="right" ><table width="185" class="search" align="right" ><tr><td><input 
+
+type="text" name="search" value="Email Address" onBlur="if (this.value == '') {this.value='Email Address'}" onFocus="if (this.value =='Email Address') {this.value = ''}" /> 
+<input type="button" class="btn3" value="GO" /></td></tr></table></div>
+
+<div id="GlobalWrap" style="z-index:1"><!-- Start Global Wrapper -->
+
+
+  <!-- End Top Nav -->
+  
+	
+	<div id="MainColumn" style="left:15px; "  ><!-- InstanceBeginEditable name="Main Column" -->
+	  <!-- Start Main Column -->
+	 <!-- Screen ID:SSP_006
+Screen Title:Company Visiblity
+Application:Portal
+User Type:SSP-->
+
+      <h3>Aide  myIATA </h3>
+      <table width="95%"  border="0" cellpadding="0" cellspacing="0" class="basictable">
+        <thead>
+          <tr class="Whsep Wvsep">
+            <td > Visibilité de la Société</td>
+          </tr>
+        </thead>
+        <tr >
+          <td ><p>Cet &eacute;cran affiche toutes les soci&eacute;t&eacute;s auxquelles vous pouvez acc&eacute;der. L'acc&egrave;s sera d&eacute;fini par l'administrateur au moment de la mise en place du compte. </p>
+            <p>Cet &eacute;cran donne tous les d&eacute;tails relatifs aux soci&eacute;t&eacute;s filles et &agrave; la soci&eacute;t&eacute; m&egrave;re auxquelles l'utilisateur est associ&eacute;. Les d&eacute;tails incluent le n&deg; IATA, le Nom de la Soci&eacute;t&eacute;, la Ville, le Pays, le n&deg; de T&eacute;l&eacute;phone et l'Adresse E-mail. </p>
+            <p>La <b> Colonne Acc&egrave;s&nbsp;? </b>vous indique si vous avez acc&egrave;s &agrave; la soci&eacute;t&eacute; fille en question. <br>
+                <img src="/PlatformDocroot/common/images/iata/application/images/ico_approved.gif" alt="Permitted" width="21" height="21" align="absmiddle"> indique que l'acc&egrave;s est autoris&eacute;, <img src="/PlatformDocroot/common/images/iata/application/images/ico_declined.gif" alt="Denied" width="21" height="21" align="absmiddle"> indique que l'acc&egrave;s est refus&eacute;. </p>
+            <b>Lorsque la soci&eacute;t&eacute; m&egrave;re ne poss&egrave;de pas de soci&eacute;t&eacute;s filles, les d&eacute;tails relatifs &agrave; la soci&eacute;t&eacute; &agrave; laquelle vous &ecirc;tes associ&eacute; s'affichent.</b><br>
+          </td>
+        </tr>
+      </table>
+      <table width="95%"  border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td><input type="button" name="Button" value="Fermer " class="btn2" onClick="javascript:window.close();"></td>
+          <td><div align="right">
+              <input type="button" name="Button2" value="Imprimer" class="btn3" onClick="javascript:window.print();">
+          </div></td>
+        </tr>
+      </table>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      
+	   
+	  <p class="footer"></p><!-- InstanceEndEditable -->
+    </div>
+	
+	
+	<!-- End Main Column -->
+</div><!-- End Global Wrapper -->
+
+</body>
+<!-- InstanceEnd --></html>

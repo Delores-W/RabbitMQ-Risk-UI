@@ -1,0 +1,360 @@
+<!-- InstanceBegin template="/Templates/portal_template.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<!-- InstanceBeginEditable name="Title Region" -->
+<title>IATA: T2005 Customer Portal: Mass Mailing</title>
+<link href="sample.css"rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="../fckeditor.js"></script>
+<script language="JavaScript" type="text/JavaScript">
+<!--
+
+function ref(object) 
+{ 
+if (document.getElementById) 
+{ 
+return document.getElementById(object); 
+} 
+else if (document.all) 
+{ 
+return eval('document.all.' + object); 
+} 
+else 
+{ 
+return false; 
+} 
+} 
+
+
+function expand(object) 
+{ 
+var object = ref(object); 
+
+
+if( !object.style ) 
+{ 
+return false; 
+} 
+else 
+{ 
+object.style.display = ''; 
+} 
+
+
+if (window.event) 
+{ 
+window.event.cancelBubble = true; 
+} 
+} 
+
+
+function contract(object) 
+{ 
+var object = ref(object); 
+
+
+if( !object.style ) 
+{ 
+return false; 
+
+} 
+else 
+{ 
+object.style.display = 'none'; 
+} 
+
+
+if (window.event) 
+{ 
+window.event.cancelBubble = true; 
+} 
+} 
+
+
+function toggle(object) 
+{ 
+object = ref(object); 
+if( !object.style ) 
+{ 
+return false; 
+} 
+
+
+if( object.style.display == 'none' ) 
+{ 
+object.style.display = ''; 
+document.images["expand"].src="../../images/arrow_collapse.gif";
+
+} 
+else 
+{ 
+object.style.display = 'none'; 
+document.images["expand"].src="../../images/arrow_expand.gif";
+
+} 
+}
+//-->
+</script>
+<!-- InstanceEndEditable -->
+<link rel="stylesheet" href="../../../styles/master.css" />
+<script language="javascript" src="../../../js/menu.js"></script>
+	
+	
+	<script type="text/javascript">
+	var Active=0;
+function form(){
+bar = document.getElementById('search');
+bar1= document.getElementById('send')
+if(bar1.style.display="none")
+{
+	if (bar.style.display == "")
+ 		bar.style.display = "none";
+   
+	else
+ 		bar.style.display = "";
+}
+else
+bar1.style.display="";
+ 
+ }
+ 
+ 
+ </script>
+
+<style type="text/css">
+.search {
+	border-left			: 1px #103F74 solid;
+	border-bottom			: 1px #103F74 solid;
+	border-right			: 1px #103F74 solid;
+	background-color:			#EAEFFB;
+
+	}
+	
+</style>
+	
+</head>
+<body>
+
+<div id="appheader" style="z-index:-1"></div>
+<div id="HeaderBar" style="z-index:-1"><!-- Start Header Nav -->
+
+	<div id="userinfo"><!-- InstanceBeginEditable name="userinfo" -->Welcome <a href="../../My%20Account/FW_ODP_My_Contact.htm">Name Lastname</a> <!-- InstanceEndEditable --></div>
+	
+	<!-- InstanceBeginEditable name="userNavig" -->
+	<div id="usernav">
+      <ul class="HeaderMenu">
+        <li class="apptitle"><a href="#">IATA Operations Desk Portal</a></li>
+         
+                  <li ><a href="javascript:window.print();" >PRINT</a></li> <li><a href="#" onclick="form(); searchform.as_q.focus()">SEARCH IATA</a></li>
+		
+        <li><a href="../../Help_old/FW_Help_ODP_Mass_Mail_Send.htm" target="_blank">HELP</a></li><li><a href="../../misc/FW_contact_us.htm" target="_blank"> CONTACT US</a></li>   
+        <li><a href="../../FW_SSP_Index.htm">LOGOUT</a></li>
+      </ul>
+    </div>
+	<!-- InstanceEndEditable --></div>
+
+<div id="search" onMouseout="active=0" onmouseover="active=1" style=" display: none; position:absolute; padding:0px 0px 0px 0px; right:135px; 
+
+top:70px;"  align="right" ><form  method="get" name="searchform" action="http://www.google.com/search" target="_blank">
+		<table class="search"><tr><td>
+			<input type="hidden" name="sitesearch" value="www.iata.org" />
+			<input title="<locale:Text literalkey='<%=Portali18nConstants.SEARCH_TIP%>'/>" type="text" style="width:150px" name="as_q" size="20" onFocus="Active==1" onBlur="if(Active==0)document.getElementById('search').style.display='none'"/>&nbsp;<input class="btn3"  type="submit" value="Search"/></td></tr>
+		</table>
+</form></div>
+<div id="send" style="display: none;   position:absolute; padding:0px 0px 0px 0px; right:160px; 
+
+top:70px;"  align="right" ><table width="185" class="search" align="right" ><tr><td><input 
+
+type="text" name="search" value="Email Address" onblur="if (this.value == '') {this.value='Email Address'}" onfocus="if (this.value =='Email Address') {this.value = ''}" /> 
+<input type="button" class="btn3" value="GO" /></td></tr></table></div>
+
+<div id="GlobalWrap" style="z-index:1"><!-- Start Global Wrapper -->
+
+	<!-- InstanceBeginEditable name="TopNavigation" --><!-- #BeginLibraryItem "/library/odp_top_navigation.lbi" -->
+			<div id="TopNav">
+	  <!-- Start Top Nav -->
+      <ul class="padding30">
+        <li><a  href="../../FW_ODP_Homepage.htm">Portal</a></li>
+        <li><a href="../../ODPIntermediarypages/FW_ODP_Accreditation_home.htm">Accrediation</a></li>
+		<li><a href="../../ODPIntermediarypages/FW_ODP_Invoices_home.htm">Invoices</a></li>
+        <li><a href="../../ODPIntermediarypages/FW_ODP_TicketSupplies_home.htm">Ticket Supplies</a></li>
+        <li><a href="../../ODPIntermediarypages/FW_ODP_Settlement_home.htm">Settlement</a></li>
+        <li><a href="../../FW_ODP_BSPLink.htm">BSPLink</a></li>
+		 <li><a href="../../ODPIntermediarypages/FW_ODP_PMUI_home.htm" >PMUI</a></li>
+       
+      </ul>
+	</div>
+	
+	<!-- End Top Nav --><!-- #EndLibraryItem --><!-- InstanceEndEditable -->
+	
+	<div id="LeftColumn"><!-- Start Left Column -->	
+		
+		<!-- InstanceBeginEditable name="LeftNavigation" --><!-- #BeginLibraryItem "/library/odp_home_left.lbi" -->
+<div id="Leftnav">
+		  <!-- Start Left Nav -->
+          <div class="Level1"  ><a  href="../../FW_ODP_Homepage.htm">Home</a></div>
+		  <div class="Level1plus" id="plus5"><a href="#" onClick="level1(5);">My Account</a></div>
+          <div id="child5" style="display: none">
+            
+           
+              <div class="Level2"><a href="../../My%20Account/FW_ODP_My_Contact.htm">Contact Information</a></div>
+              <div class="Level2"><a href="../../My%20Account/FW_ODP_Portal_Accessibility.htm">Portal Accessibility</a></div>
+            </div>
+          </div>
+          <div class="Level1plus" id="plus1" ><a href="#" onClick="level1(1);">Portal Configuration</a></div>
+          <div id="child1" style="display: none">
+		   <div class="Level2"><a href="../../Portal%20Management/FW_ODP_Down_Time.htm">Schedule Down Time</a></div>
+            <div class="Level2"><a href="../../Portal%20Management/FW_ODP_Countries_and_regions.htm">Countries and Regions</a></div>
+            <div class="Level2"><a href="../../Portal%20Management/FW_ODP_Tabs_and_Menus.htm">Tabs and Menus</a></div>
+			 
+          </div>
+          <div class="Level1plus"  id="plus2"><a href="#" onClick="level1(2);">Accounts Management</a></div>
+          <div id="child2" style="display: none">
+            <div class="Level2" id="level2"><a href="#" onClick="level2(2);">Portal Users Management</a></div>
+            <div id="dom2" style="display: none">
+              <div class="Level3"><a href="../../Account%20Management/FW_ODP_Account_Management_internal_search.htm">Internal User</a></div>
+              <div class="Level3"><a href="../../Account%20Management/FW_ODP_Account_Management_search.htm">External User</a></div>
+            </div>
+            <div class="Level2"><a href="../../Profile%20Management/FW_ODP_Mass_Role_Assignment.htm">Mass Role Assignment</a></div>
+			            <div class="Level2"><a href="../../Account%20Management/FW_ODP_Mass_Trust.htm">Mass Trust Assignment</a></div>
+            <div class="Level2"><a href="../../Profile%20Management/FW_ODP_Profile_Management.htm">Role Definitions</a></div>
+			 <div class="Level2"><a href="../../Account%20Management/FW_ODP_Role_Groups.htm">Profile Definitions</a></div>
+			             <div class="Level2"><a href="../../Profile%20Management/FW_ODP_Role_Configuration.htm">Role Compatibility </a></div>
+			
+          </div>
+         
+          <div class="Level1plus" id="plus3"><a href="#" onClick="level1(3);">Portal Monitoring</a></div>
+          <div id="child3" style="display: none">
+            <div class="Level2"><a href="../../Portal%20Monitoring/FW_ODP_Platform_Log.htm">Platform Logs</a></div>
+            <div class="Level2" id="level3"><a href="#" onClick="level2(3);">Portal Events</a></div>
+            <div id="dom3" style="display: none">
+              <div class="Level3"><a href="../../Portal%20Monitoring/FW_ODP_Event_Log_Internal.htm">Internal Events</a></div>
+              <div class="Level3"><a href="../../Portal%20Monitoring/FW_ODP_Event_Log_External.htm">External Events</a></div>
+            </div>
+			<div class="Level2" id="level4"><a href="#" onClick="level2(4);">Application Events</a></div>
+            <div id="dom4" style="display: none">
+              <div class="Level3"><a href="../../Portal%20Monitoring/FW_ODP_TreasuryLink_Event_details.htm">TreasuryLink Events</a></div>
+              <div class="Level3"><a href="../../Account%20Management/FW_ODP_Salesforce_Account.htm">SalesForce Events</a></div>
+            </div>
+            <div class="Level2">
+			<a href="../../Portal%20Monitoring/FW_ODP_Inactive_User.htm">Inactive Users </a></div>
+            <div class="Level2"><a href="../../Portal%20Monitoring/FW_ODP_webstats_Console.htm">WebServer Statistics</a></div>
+          </div>
+          <div class="Level1plus" id="plus4"><a href="#" onClick="level1(4);">Content Management</a></div>
+          <div id="child4" style="display: none">
+            <div class="Level2"><a href="../../cms/FW_ODP_CMS_Create_Content.htm">Create Content</a></div>
+			<div class="Level2"><a href="../../cms/FW_ODP_CMS_Approve_Content.htm">Approve Content</a></div>
+			<div class="Level2"><a href="../../cms/FW_ODP_CMS_Publish_Content.htm">Publish Content</a></div>
+			</div>
+          <div class="Level1"><a href="../../Account%20Management/FW_ODP_Mass_Mailing.htm">Mass Mail</a></div>
+
+          
+          <div class="Level1" id="plus6"><a href="../../Account%20Consolidation/ODP/FW_ODP_Temp_account_index.htm">Temporary Accounts</a></div>
+		  
+		
+		<!-- End Left Nav --><!-- #EndLibraryItem --><!-- End Left Nav -->
+		<!-- InstanceEndEditable --></div>
+	<!-- End Left Column -->
+
+	<div id="MainColumn"  "><!-- Start Main Column -->
+	  <!-- InstanceBeginEditable name="ContentPart" -->
+	  <h1> Mass Mailing - Select Template &amp; Send Email</h1>
+	  <table width="95%"  border="0" cellspacing="0" cellpadding="0" class="BasicTable">
+        <tr class="wvsep">
+          <td><div align="center"><b><a href="../../Account%20Management/FW_ODP_Mass_Mailing.htm">Step 1: Select Recepients </a></b></div></td>
+          <th><div align="center"><b>Step 2: Select Template &amp; Send Email </b></div></th>
+        </tr>
+      </table>
+	  <table width="95%"  border="0" cellspacing="0" cellpadding="0" class="basicTable">
+       <thead> <tr>
+          <td colspan="2"><b>Template</b></td>
+        </tr></thead>
+        <tr class="whsep">
+          <td class="grey"><div align="right"><b>Template Type: </b></div></td>
+          <td><input name="radiobutton" type="radio" value="radiobutton" checked>
+            Announcment 
+            <input name="radiobutton" type="radio" value="radiobutton">
+            Notifications</td>
+        </tr>
+        <tr>
+          <td width="20%" class="grey"><div align="right"><b>Select Template: </b></div></td>
+          <td width="76%"><select name="template" id="template" style="width:200px ">
+            <option>Template1</option>
+            <option>Template2</option>
+            <option>Template3</option>
+          </select></td>
+        </tr>
+      </table>
+	  <table class="BasicTable" width="95%" id="Table6">
+        <thead>
+          <tr class="wvsep">
+            <td colspan="2">Write The Email</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="whsep ">
+            <td width="20%" class="grey"><div align="right"><b>Subject:</b></div></td>
+            <td width="76%">
+              <input type="text" id="Text35" size="30" name="Subject" style="width:364 ; height:19" /></td>
+          </tr>
+          <tr class="whsep ">
+            <th colspan="2" valign="top"><div align="left"><b>Body:</b></div></th>
+          </tr>
+          <tr class="whsep ">
+            <td colspan="2" valign="top" ><div align="right"></div>
+		      <script type="text/javascript">
+<!--
+// Automatically calculates the editor base path based on the _samples directory.
+// This is usefull only for these samples. A real application should use something like this:
+// oFCKeditor.BasePath = '/fckeditor/' ;	// '/fckeditor/' is the default value.
+var sBasePath = document.location.pathname.substring(0,document.location.pathname.lastIndexOf('_samples')) ;
+alert(sBasePath);
+var oFCKeditor = new FCKeditor( 'FCKeditor1' ) ;
+oFCKeditor.BasePath	= sBasePath ;
+
+oFCKeditor.Height	= 300 ;
+oFCKeditor.Value	= 'This is some <strong>sample text<\/strong>. ' ;
+oFCKeditor.Create() ;
+//-->
+		      </script>
+		      <br />	</td>
+          </tr>
+          <tr >
+            <td width="20%" valign="top" ><div align="right"></div></td>
+            <td width="76%"><div align="right">
+              <input name="send" type="button" class="btn3" id="Button10223" value="Send Email" />
+            </div></td>
+          </tr>
+        </tbody>
+      </table>
+	  <p>&nbsp;</p>
+	  <table width="95%"  border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td><b>Notes to Developers</b>
+            <ul>
+            <li>The Subject and Body of the Email will be populated according to the Template Selected in the Template select Drop Down.</li>
+          </ul></td>
+        </tr>
+      </table>
+	  <p>&nbsp;</p>
+	  <p>&nbsp;</p>
+	 
+
+	  <!-- InstanceEndEditable --><table width="95%"  border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td><ul>
+            <!-- InstanceBeginEditable name="versioncontroll" --> <li><b>Page Id</b>: ODP - 0.24</li>
+            <li><b>Date</b>:23/11/2006</li>
+                      <li><b>Version:</b> 2.8</li>
+            <!-- InstanceEndEditable --></ul></td>
+          <td><div align="right"></div></td>
+        </tr>
+      </table><p>&nbsp;</p>
+<p class="footer"></p>
+    </div>
+	
+	
+	<!-- End Main Column -->
+		  
+</div><!-- End Global Wrapper -->
+
+</body>
+<!-- InstanceEnd --></html>

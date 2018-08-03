@@ -1,0 +1,84 @@
+
+#content table.rangemap {
+	display: inline;
+	width: auto;
+	border: 1px solid #aaeeff;
+	border-collapse: collapse;
+	margin: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+#content tr.rangemap {
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+#content br.crlf {
+	padding: 0px 0px 0px 0px;
+	margin: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+#content td.free {
+	height: 16px;
+	background-color: #ffffff;
+	padding: 0px 0px 0px 0px;
+	margin: 0px;
+}
+
+#content td.available {
+	height: 16px;
+	background-color:  #00FF00;
+	padding: 0px 0px 0px 0px;
+	margin: 0px;
+}
+
+#content td.quarantined {
+	height: 16px;
+	background-color: #FF9900;
+	padding: 0px 0px 0px 0px;
+	margin: 0px;
+}
+
+#content td.used {
+	height: 16px;
+	background-color: #ccaaaa;
+	padding: 0px 0px 0px 0px;
+	margin: 0px;
+}
+
+#content td.blacklisted {
+	height: 16px;
+	background-color: #000000;
+	padding: 0px 2px 0px 2px;
+	margin: 0px;
+}
+
+#content td.clicked {
+	height: 16px;
+	background-color: #ffff00;
+	padding: 0px 0px 0px 0px;
+	margin: 0px;
+}
+
+#content td.clickedBlack {
+	height: 16px;
+	background-color: #ffff00;
+	padding: 0px 2px 0px 2px;
+	margin: 0px;
+}
+
+#content td.selectedRange {
+	height: 16px;
+	background-color: #ff00aa;
+	/* border: 2px solid black; */
+	padding: 0px 0px 0px 0px;
+	margin: 0px;
+}

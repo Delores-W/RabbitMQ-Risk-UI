@@ -1,0 +1,269 @@
+body
+{
+	text-align				: left;
+}
+
+#subheader
+{
+	width					: 100%;
+	height					: 69px;
+	text-align				: center;
+	background				: url(../images-css/header_app_sub_bg.gif) #FFFFFF repeat-x;
+}
+
+#header
+{
+	height					: 130px;
+}
+
+
+/* ----------------------------------------------------------------------------------- */ 
+/* Top nav */
+/* ----------------------------------------------------------------------------------- */ 
+
+#topnav 
+{
+	width					: 66%;
+	margin					: 0px 0px 15px 163px;
+	background-color		: #F2F5FC;
+	border					: 1px solid #C9DAE2;
+	padding					: 0px;
+}
+
+* html body #topnav 
+{
+	width					: 79%;
+}
+
+
+
+#topnav .menu-item
+{	
+	vertical-align			: middle;
+	font					: bold 8pt/11pt Arial;
+	width					: 1px;
+	padding					: 3px 0px 0px 0px;
+	text-align				: left;
+} 
+
+#topnav .menu-item a
+{
+	text-decoration			: none;	
+}
+
+#topnav .seperator
+{	
+	background				: url(../images-css/topnav_seperator.gif) no-repeat center;	
+}
+
+#topnav .side
+{	
+	width					: 10px;	
+}   
+
+
+
+/* ----------------------------------------------------------------------------------- */
+/* Login Box */
+/* ----------------------------------------------------------------------------------- */
+
+#login
+{
+	font					: normal 8pt/11pt Arial, Helvetica, sans-serif;
+	width					: 110px;
+	border					: 1px #E0D2FC solid;
+	background-color		: #F9F6FF;
+	padding					: 5px;
+	margin-bottom			: 20px;
+	text-align				: center;
+}
+
+#login input
+{
+	width					: 100px;
+}
+
+#login input.btn
+{
+	width					: auto;	
+}
+
+
+
+#imagebanner
+{
+	width					: 100%;
+	margin					: 0px 0px 15px 0px;
+	padding					: 0px;
+	border-top				: 1px solid #C9DAE2;
+	border-bottom			: 1px solid #C9DAE2;
+}
+
+#imagebanner .fda
+{
+	width					: 100%;
+	height					: 78px;
+	padding					: 0px;
+	background				: url(../images-css/fda.jpg) #FFFFFF no-repeat;
+	background-position		: right;
+}
+
+#imagebanner .appname
+{
+	width					: 100%;
+	height					: 78px;
+	padding					: 0px;
+	background				: url(../images-css/channels.jpg) #FFFFFF no-repeat;
+	background-position		: right;
+}
+
+#imagebanner .appcal
+{
+	width					: 100%;
+	height					: 78px;
+	padding					: 0px;
+	background				: url(../images-css/appcal.jpg) #FFFFFF no-repeat;
+	background-position		: right;
+}
+
+
+#imagebanner .webstar
+{
+	width					: 100%;
+	height					: 78px;
+	padding					: 0px;
+	background				: url(../images-css/channels.jpg) #FFFFFF no-repeat;
+	background-position		: right;
+}
+
+#imagebanner .intranet
+{
+	width					: 100%;
+	height					: 78px;
+	padding					: 0px;
+	background				: url(../images-css/intranet.jpg) #FFFFFF no-repeat;
+	background-position		: right;
+}
+
+#imagebanner .xrate1
+{
+	width					: 100%;
+	height					: 78px;
+	padding					: 0px;
+	background				: url(../images-css/xrate1.jpg) #FFFFFF no-repeat;
+	background-position		: right;
+}
+
+#imagebanner .xrate2
+{
+	width					: 100%;
+	height					: 78px;
+	padding					: 0px;
+	background				: url(../images-css/xrate2.jpg) #FFFFFF no-repeat;
+	background-position		: right;
+}
+
+#imagebanner .cargois
+{
+	width					: 100%;
+	height					: 78px;
+	padding					: 0px;
+	background				: url(../images-css/cargois.jpg) #FFFFFF no-repeat;
+	background-position		: right;
+}
+
+#imagebanner .environment
+{
+	width					: 100%;
+	height					: 78px;
+	padding					: 0px;
+	background				: url(../images-css/environment.jpg) #FFFFFF no-repeat;
+	background-position		: right;
+}
+
+#imagebanner .cuss
+{
+	width					: 100%;
+	height					: 78px;
+	padding					: 0px;
+	background				: url(../images-css/cuss.jpg) #FFFFFF no-repeat;
+	background-position		: right;
+}
+
+#imagebanner .bsplinkdemo
+{
+	width					: 100%;
+	height					: 78px;
+	padding					: 0px;
+	background				: url(../images-css/bsplinkdemo.jpg) #FFFFFF no-repeat;
+	background-position		: right;
+}
+
+@media print {
+	#imagebanner { display: none }
+}
+
+#content
+{
+	width					: 70%;
+	float					: left;
+	margin					: 0px 0px 0px 0px;
+}
+
+* html body #content
+{
+	width					: 79%;
+}
+
+#maincontainer
+{
+	width					: 100%;
+	margin					: 0px 0px 0px 15px;
+}
+
+#mainwrapper
+{
+	width					: 95%;
+	margin					: 0px 0px 0px 15px;
+}
+
+* html body #maincontainer, * html body #mainwrapper
+{
+	width					: 100%;
+}
+
+#colwrapper
+{	
+	width					: 100%;
+	vertical-align			: top;
+	float					: none;
+	margin					: 0px 0px 0px 0px;
+}
+
+* html body #colwrapper
+{	
+	width					: 100%;
+}
+
+#leftnav
+{
+	margin					: 0px 15px 0px 0px;
+}
+
+#rightcol
+{
+	width					: 13%;
+	margin-top				: 0px;
+}
+
+* html body #rightcol
+{
+	width					: 19%;
+}
+
+
+#footer
+{	
+	width					: 100%;
+	margin					: 20px 0px 0px 0px;
+}

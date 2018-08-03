@@ -1,0 +1,58 @@
+<!-- Query form Start-->
+<div class="row">
+  <div class="col-8 offset-2">
+    <div class="row  table-bordered">
+      <div class="form-group col-4 mt-4">
+        Account:
+        <input type="text" name="account" maxlength="100" value="" [(ngModel)]="qry.account">
+      </div>
+      <div class="form-group col-4 mt-4">
+        Status:
+        <input type="text" name="status" maxlength="100" value="" [(ngModel)]="qry.status">
+      </div>
+      <div class="form-group col-2 mt-4 ml-5">
+        <input type="submit" name="filter" value="Filter" (click)="filter()">
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Query form End-->
+
+<!-- Content Start-->
+<div class="row mt-3">
+  <div class="col-8 offset-2">
+    <table class="table table-bordered" style="font-size:12px">
+      <thead>
+      <tr style="background-color: #F2F5FC;color:#1B548E">
+        <td title="Update Account" width="20px"></td>
+        <!--<td title="Delete Account" width="20"></td>-->
+        <td>Account</td>
+        <td>Status</td>
+      </tr>
+      </thead>
+      <tbody *ngIf="accounts.length > 0">
+      <tr class="Waving1" *ngFor="let todo of accounts">
+        <td><img src="../../assets/SNAPDocroot/images/tableview/edit.gif" alt="Update" title="Update the Account"
+                 (click)="gotoUpdate(todo)"></td>
+        <!--<td><img src="../../assets/SNAPDocroot/images/tableview/delete.gif" alt="Delete" title="Delete the Account"-->
+                 <!--(click)="gotoDelete(todo)"></td>-->
+        <td>{{todo.account}}</td>
+        <td>{{todo.status}}</td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<!-- End-->
+
+<!-- button start -->
+<div class="row col-8 offset-2 form-group table-bordered">
+  <div class="offset-2">
+    <input type="submit" name="drop DB" value="Drop DB" (click)="dropDB()">
+  </div>
+  <div class="offset-4">
+    <input type="submit" name="refresh" value="Refresh" (click)="refresh()">
+  </div>
+</div>
+<!-- button end -->
+

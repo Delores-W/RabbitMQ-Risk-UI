@@ -1,0 +1,39 @@
+
+
+
+
+<!doctype html public "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<body>
+
+
+
+<h1>Invoices</h1>
+<h3>Invoices Home Page</h3>
+Please click on the <b>left handside menu</b> to access to your latest electronic invoices and credit notes:<br> <ul><li>Click "My Invoices and Credit Notes"</li>
+<li>And then click "View summary information"</li>
+</ul>
+On this page, you can also have access to your historical information starting from May 2006<br><br> <h3>New in Invoices!</h3>
+<ul><li>In order to provide you with centralised, permanent access to your IATA invoices, IATA is replacing paper billing with an easy-to-use online service to view invoices for services such as HOTs or BSPLink enhanced fees</li>
+<li>Instead of receiving traditional paper invoices, from date you will be able to download or print electronic invoices</li>
+<li>You can view them at any time, avoiding paper circulation and possibly misplaced documents</li>
+<li>Electronic invoices will now be issued centrally by our Montreal office and no longer by your country offices. It is therefore important that you check the VAT implications that are explained below under the topic "What are reverse charges?"</li>
+</ul>
+<h3>Technical instructions to validate eSignatures</h3>
+<ul><li>Each of the electronic invoices issued by IATA is electronically signed in compliance with the national provision in the law of the EU Directive 2001/115/EC. If you want to verify the electronic signature of the invoices, you will need to follow the instructions in the attached PDF, <a href="http://localhost:80/PortalDocroot/cms/sites/default/static/document/en/application/cis/general/SSP/installation.pdf" target="_blank">click here to open the PDF document</a></li>
+<li>To verify the electronic signature, you should download the certificates. Please <a href="http://localhost:80/PortalDocroot/certificates/cis/eu/ANCERTCNC.crt">click here for certificate 1</a> and <a href="http://localhost:80/PortalDocroot/certificates/cis/eu/ANCERTNOT.crt">click here for certificate 2</a></li>
+</ul>
+<table class="BasicTable" width="95%"><thead><tr class="vsep"><td width="92">My invoices</td>
+<td> View invoices, credit notes and more                      </td>
+</tr>
+</thead><tbody><tr class="whsep wvsep"><td width="92"><img alt="" border="0" src="http://localhost:80/PortalDocroot/images/ssp_invoices.gif" width="90" height="67"></img></td>
+<td><a href="http://localhost:80/PortalDocroot/cms/sites/default/static/content/en/application/cis/general/CIS_Static_Esignature.html" target="_blank" onclick="javascript:window.parent.scrollTo(0,0);">What is electronic signature?</a> , <a href="http://localhost:80/PortalDocroot/cms/sites/default/static/content/en/application/cis/general/CIS_Static_Reverse.html" target="_blank" onclick="javascript:window.parent.scrollTo(0,0);">What are reverse charges?</a>, <a href="http://www.adobe.com/products/acrobat/readstep2.html" target="_blank">Download Acrobat reader</a></td>
+</tr>
+</tbody></table>
+
+
+
+
+</body>
+</html>
+

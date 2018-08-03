@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>demo-UI</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <style type="text/css">
+
+    .table td, .table th {
+      border-top: none;
+      padding: 0.75rem;
+      vertical-align: top;
+    }
+
+    .content table.rangemap {
+      display: inline;
+      width: auto;
+      border: 1px solid #aaeeff;
+      border-collapse: collapse;
+      margin: 0px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      margin-left: 0px;
+      margin-right: 0px;
+      border-top-style:none;
+      border-bottom-style:none;
+      border-left-style:none;
+      border-right-style:none;
+
+      padding: 0px 0px 0px 0px;
+    }
+
+    .content tr.rangemap {
+      margin: 0px;
+      padding: 0px 0px 0px 0px;
+    }
+
+    .content br.crlf {
+      padding: 0px 0px 0px 0px;
+      margin: 0px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+
+    .content td.free {
+      height: 16px;
+      background-color: #ffffff;
+      padding: 0px 0px 0px 0px;
+      margin: 0px;
+    }
+
+    .content td.available {
+      height: 16px;
+      background-color: #00FF00;
+      padding: 0px 0px 0px 0px;
+      margin: 0px;
+    }
+
+    .content td.quarantined {
+      height: 16px;
+      background-color: #FF9900;
+      padding: 0px 0px 0px 0px;
+      margin: 0px;
+    }
+
+    .content td.used {
+      height: 16px;
+      background-color: #ccaaaa;
+      padding: 0px 0px 0px 0px;
+      margin: 0px;
+    }
+
+    .content td.blacklisted {
+      height: 16px;
+      background-color: #000000;
+      padding: 0px 2px 0px 2px;
+      margin: 0px;
+    }
+
+    .content td.clicked {
+      height: 16px;
+      background-color: #ffff00;
+      padding: 0px 0px 0px 0px;
+      margin: 0px;
+    }
+
+    .content td.clickedBlack {
+      height: 16px;
+      background-color: #ffff00;
+      padding: 0px 2px 0px 2px;
+      margin: 0px;
+    }
+
+    .content td.selectedRange {
+      height: 16px;
+      background-color: #ff00aa;
+      /* border: 2px solid black; */
+      padding: 0px 0px 0px 0px;
+      margin: 0px;
+    }
+
+
+  </style>
+
+
+  <!-- default iata stylesheet // mandatory -->
+  <!--<link rel="stylesheet" href="assets/SNAPDocroot/css/bootstrap.min.css">
+-->
+  <!-- Bootstrap core CSS -->
+  <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+  <!-- default iata stylesheet // mandatory -->
+  <link rel="stylesheet" href="assets/SNAPDocroot/portal/css/general_2005.css">
+  <!-- Choose between a fixed (730px) or full-page layout // app_fixed_2005.css | app_full_2005.css -->
+  <link rel="stylesheet" href="assets/SNAPDocroot/portal/css/app_full_2005.css">
+  <!-- Choose your accent color // Available colors (green, fuschia, red, orange, purple -->
+  <link rel="stylesheet" href="assets/SNAPDocroot/portal/css/accent_green.css">
+  <!-- Choose your accent color // Available colors (green, fuschia, red, orange, purple -->
+  <link rel="stylesheet" href="assets/SNAPDocroot/portal/css/iata.css">
+
+  <script language="JavaScript" src="./assets/SNAPDocroot/portal/js/general_scripts.js"></script>
+  <script src="./assets/SNAPDocroot/portal/js/canvasjs.min.js"></script>
+  <script src="https://cdn.ckeditor.com/4.7.3/full-all/ckeditor.js"></script>
+  <script src="https://cdn.ckeditor.com/4.6.1/full/ckeditor.js"></script>
+  <script language="JavaScript">
+    function changeTdClass(tagName, cls) {
+//      console.log(cls);
+      var elems = document.getElementsByName(tagName);
+      for (i = 0; i < elems.length; i++) {
+        elems[i].parentNode.className = cls;
+      }
+    }
+
+    function detailRange(start, end, status) {
+      document.getElementById('selStart').value = start;
+      document.getElementById('selEnd').value = end;
+      document.getElementById('selStatus').value = status;
+
+      document.getElementById('testbtn').click();
+    }
+
+  </script>
+</head>
+<body>
+  <app-root></app-root>
+</body>
+</html>

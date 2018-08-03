@@ -1,0 +1,80 @@
+
+
+
+
+<!doctype html public "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<body>
+
+
+
+<h3>Help - myIATA Operational Desk Portal</h3>
+<table cellspacing="0" cellpadding="0" width="95%" border="0" class="basictable"><thead><tr class="Whsep Wvsep"><td>Portal User Management - External User</td>
+</tr>
+</thead><tbody><tr><td><h3><strong>Purpose:</strong></h3>
+<p>This function of this screen is to allow an ODP user to manage the external user accounts.</p>
+<p>External user (Company or person) account details can be viewed and edited, that includes</p>
+<ul><li><a href="http://localhost:80/PortalDocroot/cms/sites/default/static/content/en/application/portal/help/ODP/Portal_User_Management_External_User_Edit_Company_info.htm">Step 1: Company Information</a></li>
+<li><a href="http://localhost:80/PortalDocroot/cms/sites/default/static/content/en/application/portal/help/ODP/Portal_User_Management_External_User_Take_Trust.htm">Step 2: Take Trust</a></li>
+<li><a href="http://localhost:80/PortalDocroot/cms/sites/default/static/content/en/application/portal/help/ODP/Portal_User_Management_External_User_Give_Trust.htm">Step 3: Give Trust</a></li>
+<li><a href="http://localhost:80/PortalDocroot/cms/sites/default/static/content/en/application/portal/help/ODP/Portal_User_Management_External_User_User_Accounts.htm">Step 4: User Accounts</a></li>
+<li><a href="http://localhost:80/PortalDocroot/cms/sites/default/static/content/en/application/portal/help/ODP/Portal_User_Management_External_User_add_user_account.htm">Add New Account</a></li>
+</ul>
+<p>ODP can build trust or give trust to different types of users.</p>
+<p>This screen also manages the User accounts for companies and adds New Accounts for different companies. This screen can administer</p>
+<ul><li><a href="http://localhost:80/PortalDocroot/cms/sites/default/static/content/en/application/portal/help/ODP/Portal_User_Management_External_User_Contact_information.htm">Step 1: User Contact Information</a></li>
+<li><a href="http://localhost:80/PortalDocroot/cms/sites/default/static/content/en/application/portal/help/ODP/Portal_User_Management_External_User_Edit_Roles.htm">Step 2: User Roles</a></li>
+<li><a href="http://localhost:80/PortalDocroot/cms/sites/default/static/content/en/application/portal/help/ODP/Portal_User_Management_External_User_Company_Visiblity.htm">Step 3: Company Visibility</a></li>
+<li><a href="http://localhost:80/PortalDocroot/cms/sites/default/static/content/en/application/portal/help/ODP/Portal_User_Management_External_User_add_user_account.htm">Add New User</a></li>
+</ul>
+<h3><strong>Actions:</strong></h3>
+<h4><strong>Search</strong></h4>
+<ul><li>Select the search group, it can be any one of the below: <ul><li>Agency</li>
+<li>Airlines <strong>Company</strong></li>
+<li>Others</li>
+<li>Person</li>
+</ul>
+</li>
+<li>Enter any one or more search criteria. Click on <strong>Search</strong> to get the search results.</li>
+<li>Company Search: When the Search category is a company. <ul><li><strong>Example:</strong> For Agency search the system generates search results in below format</li>
+<li>Number of records to be displayed per page can be set from the drop down on top right corner of the search results.</li>
+<li>Select the relevant radio button and click on <strong>Disable Account</strong> to deactivate that account. The status will be changed from active to <strong>Disabled.</strong></li>
+<li>To view the company information, click on Company Name.</li>
+</ul>
+</li>
+<li>Person Search: When the Search category is a person. <ul><li><strong>First Name, Last Name</strong> and <strong>Username</strong> Search Criteria will appear.</li>
+<li>Enter any of the search criteria and click on <strong>Search Account</strong> .</li>
+<li>Clicking on the Person Name will open User Contact Information</li>
+</ul>
+</li>
+</ul>
+<h3>Special Cases in search :</h3>
+<table cellspacing="0" cellpadding="0" class="Basictable"><tbody><tr class="hsep vsep"><th valign="top" width="99"><strong>Search Category</strong></th><th valign="top" width="383"><strong>Disabled search fields/actions</strong></th></tr>
+<tr class="vsep hsep"><td valign="top" width="99"><strong>Agency</strong></td>
+<td valign="top" width="383">Company type</td>
+</tr>
+<tr class="vsep hsep"><td valign="top" width="99"><strong>Airlines</strong></td>
+<td valign="top" width="383">Agency Status, Agency Location Type, Agency Class type</td>
+</tr>
+<tr class="vsep hsep"><td valign="top" width="99"><strong>Person</strong></td>
+<td valign="top" width="383">Different search screen. <strong>Disable Account</strong> button is not available</td>
+</tr>
+<tr class="vsep hsep"><td valign="top" width="99"><strong>Others</strong></td>
+<td valign="top" width="383">IATA#, Agency Status, Company Type, Agency Location Type, Agency Class type</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table cellspacing="0" cellpadding="0" width="95%" border="0"><tbody><tr><td><input class="btn2" onclick="javascript:window.close();" type="button" name="Button" value="Close"></input></td>
+<td><div align="right"><input class="btn3" onclick="javascript:window.print();" type="button" name="Button22" value="Print"></input></div></td>
+</tr>
+</tbody></table>
+<p class="footer"> </p>
+
+
+
+
+</body>
+</html>
+

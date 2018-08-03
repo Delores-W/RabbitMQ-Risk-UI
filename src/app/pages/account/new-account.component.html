@@ -1,0 +1,35 @@
+<div class="row">
+  <div class="col-8 offset-2">
+    <div class="row table-bordered mt-3 border-right-0 border-left-0">
+      <div class="col-12 mt-3">
+        <div class="row form-group table-bordered">
+          <div class="col-sm-3 "> Account :</div>
+          <div class="col-sm-9">
+            <input type="text" id="account" name="account" maxlength="100" size="20" [(ngModel)]="vo.account">
+            <font color="#ff0000" size="4">*</font>
+          </div>
+        </div>
+        <div class="row form-group table-bordered">
+          <div class="col-sm-3 "><label for="description">Status :</label></div>
+          <div class="col-sm-9">
+            <input id="description" name="description" cols="20" rows="5" [(ngModel)]="vo.status">
+            <font color="#ff0000" size="4">*</font>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- button start -->
+    <div class="row form-group table-bordered border-right-0 border-left-0 ">
+
+      <div class="offset-1">
+        <input type="submit" name="create" value="Create" (click)="addNew()">
+      </div>
+
+      <div class="offset-3">
+        <input type="submit" name="back" value="Cancel" (click)="back()">
+      </div>
+    </div>
+    <!-- button end -->
+  </div>
+</div>

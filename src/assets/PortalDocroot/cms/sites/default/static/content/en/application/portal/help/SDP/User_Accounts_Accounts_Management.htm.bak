@@ -1,0 +1,40 @@
+
+
+
+
+<!doctype html public "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<body>
+
+
+
+<h3>Help - myIATA Support Desk Portal</h3>
+<table cellspacing="0" cellpadding="0" width="95%" border="0" class="basictable"><thead><tr class="Whsep Wvsep"><td>Accounts Management</td>
+</tr>
+</thead><tbody><tr><td><h3><strong>Purpose:</strong></h3>
+<p>This screen allows the user to view and edit the external user information. Account User can build trust or give trust to different types of sub users.<br>The User can add Company account and user accounts for different companies.<br>This screen allows editing and viewing of following functionalities to the account user</p>
+<ul><li><a href="http://localhost:80/PortalDocroot/cms/sites/default/static/content/en/application/portal/help/SDP/Accounts_Management_Company_Information.htm">Company Information</a></li>
+<li><a href="http://localhost:80/PortalDocroot/cms/sites/default/static/content/en/application/portal/help/SDP/Accounts_Management_Take_Trust.htm">Take Trust</a></li>
+<li><a href="http://localhost:80/PortalDocroot/cms/sites/default/static/content/en/application/portal/help/SDP/Accounts_Management_Give_Trust.htm">Give Trust</a></li>
+<li><a href="http://localhost:80/PortalDocroot/cms/sites/default/static/content/en/application/portal/help/SDP/Accounts_Management_User_Accounts.htm">User Accounts</a> <ol><li><a href="http://localhost:80/PortalDocroot/cms/sites/default/static/content/en/application/portal/help/SDP/User_Accounts_Contact_Information.htm">Step 1: User Contact Information</a></li>
+<li><a href="http://localhost:80/PortalDocroot/cms/sites/default/static/content/en/application/portal/help/SDP/User_Accounts_Edit_User_Role.htm">Step 2: User Roles</a></li>
+<li><a href="http://localhost:80/PortalDocroot/cms/sites/default/static/content/en/application/portal/help/SDP/User_Accounts_Company_Visiblity.htm">Step 3: Company Visibility</a></li>
+<li><a href="http://localhost:80/PortalDocroot/cms/sites/default/static/content/en/application/portal/help/SDP/User_Accounts_add_account.htm">Add New User</a></li>
+</ol>
+</li>
+</ul>
+</td>
+</tr>
+</tbody></table>
+<table cellspacing="0" cellpadding="0" width="95%" border="0"><tbody><tr><td><input class="btn2" onclick="javascript:window.close();" type="button" name="Button" value="Close"></input></td>
+<td><div align="right"><input class="btn3" onclick="javascript:window.print();" type="button" name="Button22" value="Print"></input></div></td>
+</tr>
+</tbody></table>
+<p class="footer"> </p>
+
+
+
+
+</body>
+</html>
+

@@ -1,0 +1,71 @@
+.tinytext {
+	FONT-SIZE: 10px;
+	LINE-HEIGHT: 15px;
+	FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+.smallSans {
+	FONT-SIZE: 10px;
+	LINE-HEIGHT: 15px;
+	FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+.header {
+	color:#4A4A4A;
+	text-decoration:none;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;;
+	background-color: silver
+}
+
+.tableView 
+{
+ 	font-family:Geneva, Arial, Helvetica, sans-serif;
+	border: solid 1px #065C91;
+}
+
+.tableView tbody
+{
+	font-weight: normal ;
+	color: infotext;
+	font-size: 12px;
+	background-color: #D8F4FB;
+}
+
+.tableViewWaving1
+{
+	background-color: #FFFFFF;
+	/* background-color: #D8F4FB; */
+}
+
+.tableViewWaving2
+{
+	background-color: #FFFFFF;
+	/* background-color: #bee0df; */
+}
+
+.tableView thead th
+{
+	font-weight: bold;
+	color: #D3F6FE;
+	font-size: 14px;
+	border-bottom : solid 1px #065C91;
+	background-color: #418A9C;
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 14px;
+}
+
+.tableView tfoot td 
+{
+	border-top : solid 1px #065C91;
+	font-weight: lighter;
+	font-size: 14px;
+	color: #154956;	
+	background-color: #A4D6E2;
+}
+
+#content {
+	width: 100%;
+}
+

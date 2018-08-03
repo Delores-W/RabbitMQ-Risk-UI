@@ -1,0 +1,15 @@
+
+* html body
+{
+	background				: url() #FFFFFF repeat-x bottom right;
+}
+
+p.footer
+{
+
+	width					: auto;
+	margin-top				: 10px;
+	height					: 20px;
+	clear					: both;
+	background				: url() #FFFFFF no-repeat;
+}

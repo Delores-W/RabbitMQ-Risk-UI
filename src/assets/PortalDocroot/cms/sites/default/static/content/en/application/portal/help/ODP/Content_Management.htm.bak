@@ -1,0 +1,32 @@
+
+
+
+
+<!doctype html public "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<body>
+
+
+
+<h3>Help - myIATA Operational Desk Portal</h3>
+<table cellspacing="0" cellpadding="0" width="95%" border="0" class="basictable"><thead><tr class="Whsep Wvsep"><td>Content Management</td>
+</tr>
+</thead><tbody><tr><td><p><strong>Content Management</strong> allows you to administer the content on the portal from the creation to it approval to the final publishing. This menu has 3 sub menus</p>
+<ul><li><a href="http://localhost:80/PortalDocroot/cms/sites/default/static/content/en/application/portal/help/ODP/Content_Management_Create_Content.htm/">Create Content</a></li>
+<li><a href="http://localhost:80/PortalDocroot/cms/sites/default/static/content/en/application/portal/help/ODP/Content_Management_Approve_Content.htm">Approve Content</a></li>
+<li><a href="http://localhost:80/PortalDocroot/cms/sites/default/static/content/en/application/portal/help/ODP/Content_Management_Publish_Content.htm">Publish Content</a></li>
+</ul>
+</td>
+</tr>
+</tbody></table>
+<table cellspacing="0" cellpadding="0" width="95%" border="0"><tbody><tr><td><input class="btn2" onclick="javascript:window.close();" type="button" name="Button" value="Close"></input></td>
+<td><div align="right"><input class="btn3" onclick="javascript:window.print();" type="button" name="Button22" value="Print"></input></div></td>
+</tr>
+</tbody></table>
+
+
+
+
+</body>
+</html>
+

@@ -1,0 +1,38 @@
+
+
+
+
+<!doctype html public "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<body>
+
+
+
+<h3>Help - myIATA Operational Desk Portal</h3>
+<table cellspacing="0" cellpadding="0" width="95%" border="0" class="basictable"><thead><tr class="Whsep Wvsep"><td>Portal User Management - External User - User Acoounts</td>
+</tr>
+</thead><tbody><tr><td><h3><strong>C</strong><strong>ontent:</strong></h3>
+<ul><li>User accounts can be managed assigning roles and defining the company visibility.</li>
+<li>Search results are pre-listed; user may enter any one or more of the search criteria for further filtering and Click on <strong>Search</strong> . <ul><li>The <img height="21" alt="isAdmin" width="21" align="absmiddle" src="http://localhost:80/PortalDocroot/images/ico_approved.gif"></img> tick mark in the <strong>Admin</strong> column indicates that the user has admin rights.</li>
+<li>If a User has locked their account by using incorrect password repetitively</li>
+</ul>
+</li>
+<li>Select the check box, click <strong>Unlock Account</strong> to release that account.</li>
+<li>Select the check box; click <strong>Reset Password</strong> to induce the user to change the password in the next login. Auto generated password is mailed to the user.</li>
+<li>To terminate an account, select the check box of the user and click <strong>Delete</strong> .</li>
+<li>Click on User name to view/edit user Contact Information.</li>
+</ul>
+</td>
+</tr>
+</tbody></table>
+<table cellspacing="0" cellpadding="0" width="95%" border="0"><tbody><tr><td><input class="btn2" onclick="javascript:window.close();" type="button" name="Button" value="Close"></input></td>
+<td><div align="right"><input class="btn3" onclick="javascript:window.print();" type="button" name="Button22" value="Print"></input></div></td>
+</tr>
+</tbody></table>
+
+
+
+
+</body>
+</html>
+

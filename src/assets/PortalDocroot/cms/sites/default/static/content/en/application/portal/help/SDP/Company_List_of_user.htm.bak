@@ -1,0 +1,75 @@
+
+
+
+
+<!doctype html public "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<body>
+
+
+
+<h3>Help - myIATA Support Desk Portal</h3>
+<table cellspacing="0" cellpadding="0" width="95%" border="0" class="basictable"><thead><tr class="Whsep Wvsep"><td>List of Users</td>
+</tr>
+</thead><tbody><tr><td><h3><strong>Actions:</strong></h3>
+<ul><li>Click on the hyperlink List of Users to view the Users for the chosen company</li>
+<li>Search results are pre-listed; user may enter any one or more of the search criteria for further filtering and Click on <strong>Search</strong> .</li>
+<li>The <img height="21" alt="Admin" width="21" align="absmiddle" src="http://localhost:80/PortalDocroot/images/ico_approved.gif"></img> tick mark in the <strong>Admin</strong> column indicates that the user has admin rights.</li>
+<li>Click on User name to view/edit user Contact Information.</li>
+</ul>
+<h3><strong>Table Contents:</strong></h3>
+<div align="center"><table id="table1" style="BORDER-COLLAPSE: collapse" cellspacing="0" cellpadding="0" border="0" class="MsoNormalTable"><tbody><tr><td style="BORDER-RIGHT: 1px solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: 1px solid; PADDING-LEFT: 5.4pt; BACKGROUND: navy; PADDING-BOTTOM: 0in; BORDER-LEFT: 1px solid; WIDTH: 107.75pt; PADDING-TOP: 0in; BORDER-BOTTOM: 1px solid" valign="top" width="144"><p class="tabletext" style="MARGIN: 3pt 1.45pt 3pt 0in"><strong><font color="#ffffff" size="2"> Header Name</font></strong></p>
+</td>
+<td style="BORDER-RIGHT: 1px solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: 1px solid; PADDING-LEFT: 5.4pt; BACKGROUND: navy; PADDING-BOTTOM: 0in; BORDER-LEFT: 1px solid; WIDTH: 253.85pt; PADDING-TOP: 0in; BORDER-BOTTOM: 1px solid" valign="top" width="338"><p class="tabletext" style="MARGIN: 3pt 1.45pt 3pt 0in"><strong><font color="#ffffff" size="2">Description</font></strong></p>
+</td>
+</tr>
+<tr><td style="BORDER-RIGHT: 1px solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: 1px solid; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: 1px solid; WIDTH: 107.75pt; PADDING-TOP: 0in; BORDER-BOTTOM: 1px solid" valign="top" width="144"><p style="MARGIN: 3pt 1.45pt 3pt 0in"><strong>Person Name</strong></p>
+</td>
+<td style="BORDER-RIGHT: 1px solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: 1px solid; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: 1px solid; WIDTH: 253.85pt; PADDING-TOP: 0in; BORDER-BOTTOM: 1px solid" valign="top" width="338"><p style="MARGIN: 3pt 1.45pt 3pt 0in">Individual persons name associated with the account</p>
+</td>
+</tr>
+<tr><td style="BORDER-RIGHT: 1px solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: 1px solid; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: 1px solid; WIDTH: 107.75pt; PADDING-TOP: 0in; BORDER-BOTTOM: 1px solid" valign="top" width="144"><p style="MARGIN: 3pt 1.45pt 3pt 0in"><strong>Username</strong></p>
+</td>
+<td style="BORDER-RIGHT: 1px solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: 1px solid; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: 1px solid; WIDTH: 253.85pt; PADDING-TOP: 0in; BORDER-BOTTOM: 1px solid" valign="top" width="338"><p style="MARGIN: 3pt 1.45pt 3pt 0in">Unique Username or the email ID for the individual users</p>
+</td>
+</tr>
+<tr><td style="BORDER-RIGHT: 1px solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: 1px solid; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: 1px solid; WIDTH: 107.75pt; PADDING-TOP: 0in; BORDER-BOTTOM: 1px solid" valign="top" width="144"><p style="MARGIN: 3pt 1.45pt 3pt 0in"><strong>Phone</strong></p>
+</td>
+<td style="BORDER-RIGHT: 1px solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: 1px solid; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: 1px solid; WIDTH: 253.85pt; PADDING-TOP: 0in; BORDER-BOTTOM: 1px solid" valign="top" width="338"><p style="MARGIN: 3pt 1.45pt 3pt 0in">Contact number for the user</p>
+</td>
+</tr>
+<tr><td style="BORDER-RIGHT: 1px solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: 1px solid; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: 1px solid; WIDTH: 107.75pt; PADDING-TOP: 0in; BORDER-BOTTOM: 1px solid" valign="top" width="144"><p style="MARGIN: 3pt 1.45pt 3pt 0in"><strong>Account Created by</strong></p>
+</td>
+<td style="BORDER-RIGHT: 1px solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: 1px solid; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: 1px solid; WIDTH: 253.85pt; PADDING-TOP: 0in; BORDER-BOTTOM: 1px solid" valign="top" width="338"><p style="MARGIN: 3pt 1.45pt 3pt 0in">Name of person who created the account</p>
+</td>
+</tr>
+<tr><td style="BORDER-RIGHT: 1px solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: 1px solid; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: 1px solid; WIDTH: 107.75pt; PADDING-TOP: 0in; BORDER-BOTTOM: 1px solid" valign="top" width="144"><p style="MARGIN: 3pt 1.45pt 3pt 0in"><strong>Account Created on</strong></p>
+</td>
+<td style="BORDER-RIGHT: 1px solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: 1px solid; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: 1px solid; WIDTH: 253.85pt; PADDING-TOP: 0in; BORDER-BOTTOM: 1px solid" valign="top" width="338"><p style="MARGIN: 3pt 1.45pt 3pt 0in">Date of creation of account</p>
+</td>
+</tr>
+<tr><td style="BORDER-RIGHT: 1px solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: 1px solid; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: 1px solid; WIDTH: 107.75pt; PADDING-TOP: 0in; BORDER-BOTTOM: 1px solid" valign="top" width="144"><p style="MARGIN: 3pt 1.45pt 3pt 0in"><strong>Last Login</strong></p>
+</td>
+<td style="BORDER-RIGHT: 1px solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: 1px solid; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: 1px solid; WIDTH: 253.85pt; PADDING-TOP: 0in; BORDER-BOTTOM: 1px solid" valign="top" width="338"><p style="MARGIN: 3pt 1.45pt 3pt 0in">Last Login date of user</p>
+</td>
+</tr>
+<tr><td style="BORDER-RIGHT: 1px solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: 1px solid; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: 1px solid; WIDTH: 107.75pt; PADDING-TOP: 0in; BORDER-BOTTOM: 1px solid" valign="top" width="144"><p style="MARGIN: 3pt 1.45pt 3pt 0in"><strong>Admin</strong></p>
+</td>
+<td style="BORDER-RIGHT: 1px solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: 1px solid; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: 1px solid; WIDTH: 253.85pt; PADDING-TOP: 0in; BORDER-BOTTOM: 1px solid" valign="top" width="338"><p style="MARGIN: 3pt 1.45pt 3pt 0in">Indicates if the user is Admin or not, specified by the tick mark</p>
+</td>
+</tr>
+</tbody></table>
+</div></td>
+</tr>
+</tbody></table>
+<table cellspacing="0" cellpadding="0" width="95%" border="0"><tbody><tr><td><input class="btn2" onclick="javascript:window.close();" type="button" name="Button" value="Close"></input></td>
+<td><div align="right"><input class="btn3" onclick="javascript:window.print();" type="button" name="Button22" value="Print"></input></div></td>
+</tr>
+</tbody></table>
+
+
+
+
+</body>
+</html>
+

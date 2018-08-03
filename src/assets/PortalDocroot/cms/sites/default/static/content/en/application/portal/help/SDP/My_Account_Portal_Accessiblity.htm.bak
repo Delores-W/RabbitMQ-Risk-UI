@@ -1,0 +1,32 @@
+
+
+
+
+<!doctype html public "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<body>
+
+
+
+<h3>Help - myIATA Support Desk Portal</h3>
+<table cellspacing="0" cellpadding="0" width="95%" border="0" class="basictable"><thead><tr class="Whsep Wvsep"><td>My Account - Portal Accessibility</td>
+</tr>
+</thead><tbody><tr><td><h3>Purpose:</h3>
+<ul><li>This is a view only screen that displays different applications to which SSP user has access to within myIATA.</li>
+<li>The access to an application is denoted by the green colored tick mark <img height="21" alt="" width="21" align="absmiddle" src="http://localhost:80/PortalDocroot/images/ico_approved.gif"></img></li>
+<li>The access denied to an application is denoted by the red colored stop icon <img height="21" alt="" width="21" align="absmiddle" src="http://localhost:80/PortalDocroot/images/ico_declined.gif"></img></li>
+</ul>
+</td>
+</tr>
+</tbody></table>
+<table cellspacing="0" cellpadding="0" width="95%" border="0"><tbody><tr><td><input class="btn2" onclick="javascript:window.close();" type="button" name="Button" value="Close"></input></td>
+<td><div align="right"><input class="btn3" onclick="javascript:window.print();" type="button" name="Button22" value="Print"></input></div></td>
+</tr>
+</tbody></table>
+
+
+
+
+</body>
+</html>
+

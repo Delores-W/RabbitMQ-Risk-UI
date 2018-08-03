@@ -1,0 +1,70 @@
+
+
+
+
+<!doctype html public "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<body>
+
+
+
+<h3>Help - myIATA Operational Desk Portal</h3>
+<table cellspacing="0" cellpadding="0" width="95%" border="0" class="basictable"><thead><tr class="Whsep Wvsep"><td>Account Management - Mass Role Assignment</td>
+</tr>
+</thead><tbody><tr><td><h3><strong>Navigations:</strong></h3>
+<ul><li>Step 1: Select Assignee (Refer <strong>Actions</strong> below)</li>
+<li><a href="http://localhost:80/PortalDocroot/cms/sites/default/static/content/en/application/portal/help/ODP/Account_Management_Assign_Roles.htm">Step 2: Assign Roles</a></li>
+</ul>
+<h3><strong>Purpose:</strong></h3>
+<p>This screen allows assigning and/or removing of mass role for Users belonging to an account. ODP can search for particular accounts and assign/remove roles.</p>
+<p>The list of assignees for that account may be edited to restrict role allocation across applications.</p>
+<p>There are 2 steps involved in Mass Role Assignment:</p>
+<ul><li>Step 1: Select Assignee (Refer <strong>Actions</strong> below)</li>
+<li><a href="http://localhost:80/PortalDocroot/cms/sites/default/static/content/en/application/portal/help/ODP/Account_Management_Assign_Roles.htm">Step 2: Assign Roles</a></li>
+</ul>
+<h3>Actions:</h3>
+<h4><strong>Select Assignee</strong></h4>
+<ul><li>Select the search group, it can be any one of the below: <ul><li>Agency</li>
+<li>Airlines</li>
+<li>Others</li>
+<li>Person</li>
+</ul>
+</li>
+<li>Click on <strong>Upload CSV</strong> to upload the saved list of assignees in CSV format. An Upload Tab will be displayed.</li>
+<li>Click on <strong>Browse</strong> to select the file to upload.</li>
+<li>Click on <strong>Upload</strong> to select the new list as the Assignees.</li>
+</ul>
+<h4><strong>Company Search :</strong></h4>
+<ul><li>Enter any one or more search criteria. Click on <strong>Search Assignees</strong> to get the user list.</li>
+<li>Total number of records for the selected search criterion is displayed.</li>
+<li>Select the applicable radio button from the <strong>Select Assignee Tab</strong> .</li>
+<li>Click on <strong>Assign Roles</strong> to start on assigning the roles.</li>
+</ul>
+<h4><strong>To Edit the Assignee List:</strong></h4>
+<ul><li>Click on <strong>Download Records</strong> to view the entire list to edit it.</li>
+<li>Save the file in CSV format and make required changes.</li>
+<li>Click on <strong>Upload CSV</strong> to upload the saved list of assignees. An Upload Tab will be displayed.</li>
+<li>Click on <strong>Browse</strong> to select the file to upload.</li>
+<li>Click on <strong>Upload</strong> to select the new list as the Assignees.</li>
+<li>Click on <strong>Assign Roles</strong> to begin assigning the roles for this list of users</li>
+</ul>
+<h4><strong>Person Search :</strong></h4>
+When the Search category is a person. <ul><li>Enter any of the search criteria and click on <strong>Search Assignees</strong> .</li>
+<li><strong>Select Assignee Tab</strong> would not appear.</li>
+<li><strong>Upload CSV</strong> button will not be available.</li>
+<li>Click on <strong>Assign Roles</strong> to start on assigning the roles.</li>
+</ul>
+</td>
+</tr>
+</tbody></table>
+<table cellspacing="0" cellpadding="0" width="95%" border="0"><tbody><tr><td><input class="btn2" onclick="javascript:window.close();" type="button" name="Button" value="Close"></input></td>
+<td><div align="right"><input class="btn3" onclick="javascript:window.print();" type="button" name="Button22" value="Print"></input></div></td>
+</tr>
+</tbody></table>
+
+
+
+
+</body>
+</html>
+

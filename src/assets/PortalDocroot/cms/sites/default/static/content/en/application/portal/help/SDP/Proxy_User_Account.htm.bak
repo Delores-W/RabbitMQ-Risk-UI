@@ -1,0 +1,28 @@
+
+
+
+
+<!doctype html public "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<body>
+
+
+
+<h3>Help - myIATA Support Desk Portal</h3>
+<table cellspacing="0" cellpadding="0" width="95%" border="0" class="basictable"><thead><tr class="Whsep Wvsep"><td>User Accounts</td>
+</tr>
+</thead><tbody><tr><td>Refer <a href="http://localhost:80/PortalDocroot/cms/sites/default/static/content/en/application/portal/help/SDP/User_Accounts.htm">User Accounts</a></td>
+</tr>
+</tbody></table>
+<table cellspacing="0" cellpadding="0" width="95%" border="0"><tbody><tr><td><input class="btn2" onclick="javascript:window.close();" type="button" name="Button" value="Close"></input></td>
+<td><div align="right"><input class="btn3" onclick="javascript:window.print();" type="button" name="Button22" value="Print"></input></div></td>
+</tr>
+</tbody></table>
+<p class="footer"> </p>
+
+
+
+
+</body>
+</html>
+

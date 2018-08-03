@@ -1,0 +1,71 @@
+body a:hover, #leftnav ul li a:hover, h1, h2, #rhb .title
+{
+	color					: #D31045;
+}
+
+#content ul li
+{
+	background-image		: url(/NR/ContentConnector/CS2000/SiteInterface/images/2005/red/ul_bg.gif);
+}
+
+#content ul li ul li
+{
+	background-image		: url(/NR/ContentConnector/CS2000/SiteInterface/images/2005/red/ul_li_bg.gif);
+}
+
+#content ol li
+{
+	background-image		: url(/NR/ContentConnector/CS2000/SiteInterface/images/2005/red/ol_bg.gif);
+}
+
+#rightcol ul li 
+{	
+	background				: url(/NR/ContentConnector/CS2000/SiteInterface/images/2005/red/rightcol_ul.gif) #FFFFFF no-repeat;
+}
+
+#highlight a:link, #highlight a:visited
+{
+	background				: url(/NR/ContentConnector/CS2000/SiteInterface/images/2005/red/bullet_highlight.gif) #FFFFFF no-repeat;
+
+}
+
+#rightbuttons .feedback 
+{
+
+	background				: url(/NR/ContentConnector/CS2000/SiteInterface/images/2005/red/b_feedback.gif) no-repeat;
+}
+
+#rightbuttons .bookmark 
+{
+	background				: url(/NR/ContentConnector/CS2000/SiteInterface/images/2005/red/b_bookmark.gif) no-repeat;
+}
+
+#rightbuttons .mailing 
+{
+	background				: url(/NR/ContentConnector/CS2000/SiteInterface/images/2005/red/b_mailing.gif) no-repeat;
+}
+
+#rightbuttons .email 
+{
+	background				: url(/NR/ContentConnector/CS2000/SiteInterface/images/2005/red/b_email.gif) no-repeat;
+} 
+
+#rightbuttons .print 
+{
+	background				: url(/NR/ContentConnector/CS2000/SiteInterface/images/2005/red/b_print.gif) no-repeat;
+}
+
+#rightbuttons .send 
+{
+	background				: url(/NR/ContentConnector/CS2000/SiteInterface/images/2005/red/b_send.gif) no-repeat;
+}
+
+#rightbuttons .contact 
+{
+	background				: url(/NR/ContentConnector/CS2000/SiteInterface/images/2005/red/b_contact.gif) no-repeat;
+}
+
+#rightbuttons .faq 
+{
+	background				: url(/NR/ContentConnector/CS2000/SiteInterface/images/2005/red/b_faq.gif) no-repeat;
+}

@@ -1,0 +1,91 @@
+
+
+
+
+<!doctype html public "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<body>
+
+
+
+<h1>Invoices</h1>
+<p>Here you have centralised, permanent access to your IATA electronic invoices as well as access
+to your historical information (starting from May 2006).</p>
+<p>Please note that invoices are issued centrally in Montreal and therefore do not include VAT
+charges. You will thus need to self-assess the VAT on the purchase, using so-called "reverse charge
+mechanism".</p>
+<p>Each of the electronic invoices issued by IATA is electronically signed in compliance with the
+national provision in the law of EU Directive 2001/115/EC.</p>
+<h4>Customers in Belgium, France, Ireland, Luxembourg, the Netherlands, Portugal, Spain and the
+United Kingdom</h4>
+<p>If you want to verify the electronic signature, you need to download 
+<a
+href="http://localhost:80/PortalDocroot/certificates/cis/eu/ANCERTCNC.crt"
+ target="_blank">
+<u>
+<font color="#0000ff">Certificate 1</font>
+</u>
+</a> and 
+<a
+href="http://localhost:80/PortalDocroot/certificates/cis/eu/ANCERTNOT.crt"
+ target="_blank">
+<u>
+<font color="#0000ff">Certificate 2</font>
+</u>
+</a> . Instructions on how to verify can also be 
+<u>
+<a href="http://localhost:80/PortalDocroot/cms/sites/default/static/document/en/application/cis/general/SDP/installation.pdf" target="_blank">
+<font color="#0000ff">downloaded here</font>
+</a>
+</u>.</p>
+<h4>Customers in Switzerland</h4>
+<p>If you want to verify the electronic signature, you need to download 
+<a target="_blank"
+href="http://localhost:80/PortalDocroot/cms/sites/default/static/document/en/application/cis/general/SSP/qvrca.cer">
+<u>
+<font color="#0000ff">Certificate 1</font>
+</u>
+</a> and 
+<a target="_blank"
+href="http://localhost:80/PortalDocroot/cms/sites/default/static/document/en/application/cis/general/SSP/qvtsagca.cer">
+<u>
+<font color="#0000ff">Certificate 2</font>
+</u>
+</a> . Instructions on how to verify can also be 
+<u>
+<a href="http://localhost:80/PortalDocroot/cms/sites/default/static/document/en/application/cis/general/SDP/installation.pdf" target="_blank">
+<font color="#0000ff">downloaded here</font>
+</a>
+</u>.</p>
+<table width="95%" class="BasicTable">
+<thead>
+<tr class="vsep">
+<td width="92">My invoices</td>
+<td>&nbsp;View invoices, credit notes and
+more&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+</tr>
+</thead>
+<tbody>
+<tr class="whsep wvsep">
+<td width="92">
+<img height="67" alt="" width="90" border="0"
+src="http://localhost:80/PortalDocroot/images/ssp_invoices.gif" />
+</td>
+<td>
+<a onclick="javascript:window.parent.scrollTo(0,0);" target="_blank"
+href="http://localhost:80/PortalDocroot/cms/sites/default/static/content/en/application/cis/general/CIS_Static_Esignature.html">What
+is electronic signature?</a> , 
+<a onclick="javascript:window.parent.scrollTo(0,0);" target="_blank"
+href="http://localhost:80/PortalDocroot/cms/sites/default/static/content/en/application/cis/general/CIS_Static_Reverse.html">What
+are reverse charges?</a>, 
+<a target="_blank" href="http://www.adobe.com/products/acrobat/readstep2.html">Download Acrobat
+reader</a></td>
+</tr>
+</tbody>
+</table>
+
+
+
+</body>
+</html>
+
